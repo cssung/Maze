@@ -1,0 +1,4 @@
+to get an example to build in Linux (using glew instead of freeglut's extensions..)
+1.add #include <stdio.o> before including Angel.h
+2.replace the calls to gl...APPLE with gl...
+3. add a call to glewInit() in main right after opening the window

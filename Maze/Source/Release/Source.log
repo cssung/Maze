@@ -1,0 +1,59 @@
+﻿Build started 3/2/2017 10:46:09 PM.
+     1>Project "D:\Programming\CS4840\Maze\Maze\Source\Source.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Programming\CS4840\Maze\Maze\\..\Libraries\Angel-6thEd-Code\include" /ID:\Programming\CS4840\Maze\Maze\\..\Libraries\freeglut\include /ID:\Programming\CS4840\Maze\Maze\\..\Libraries\glm /I"D:\Programming\CS4840\Maze\Maze\\..\Libraries\glew-1.10.0\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CameraFP.cpp Main.cpp InitShader.cpp Maze.cpp
+         CameraFP.cpp
+     1>CameraFP.cpp(49): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>CameraFP.cpp(68): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>CameraFP.cpp(69): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+         Main.cpp
+     1>D:\Programming\CS4840\Maze\Libraries\Angel-6thEd-Code\include\Angel.h(64): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(742): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\maze\source\Trackball.h(51): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Main.cpp(109): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(118): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(126): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>Main.cpp(136): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         InitShader.cpp
+     1>D:\Programming\CS4840\Maze\Libraries\Angel-6thEd-Code\include\Angel.h(64): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(742): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+         Maze.cpp
+     1>D:\Programming\CS4840\Maze\Libraries\Angel-6thEd-Code\include\Angel.h(64): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\programming\cs4840\maze\libraries\angel-6thed-code\include\mat.h(742): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Maze.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Maze.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\CS4840\Maze\Maze\Release\Maze.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Programming\CS4840\Maze\Maze\\..\Libraries\freeglut\lib /LIBPATH:"D:\Programming\CS4840\Maze\Maze\\..\Libraries\glew-1.10.0\lib" opengl32.lib freeglut.lib glu32.lib glew32s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Programming\CS4840\Maze\Maze\Release\Maze.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\CS4840\Maze\Maze\Release\Maze.lib" /MACHINE:X86 /SAFESEH Release\CameraFP.obj
+         Release\Main.obj
+         Release\InitShader.obj
+         Release\Maze.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\Programming\CS4840\Maze\Maze\Release\vc100.pdb'; linking object as if no debug info
+         Source.vcxproj -> D:\Programming\CS4840\Maze\Maze\Release\Maze.exe
+     1>Done Building Project "D:\Programming\CS4840\Maze\Maze\Source\Source.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.58
