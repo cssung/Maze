@@ -10,6 +10,7 @@ https://github.com/wthibault
 #pragma once
 #include <GL\glew.h>
 #include "Trackball.h"
+#include <algorithm>
 #include <cmath>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_access.hpp>
