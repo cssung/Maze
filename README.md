@@ -1,3 +1,4 @@
 # Maze
-Maze project sample from university.\n
+Maze project sample from university.
+
 Code is in Maze/Source
